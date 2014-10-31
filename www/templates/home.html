@@ -1,0 +1,11 @@
+<ion-view>
+
+	<ion-content has-header="true">
+		<!-- our list and list items -->
+		<ion-list>
+			<ion-item ng-repeat="categoria in categorias">
+				<a href="#/estabelecimentos/categoria/{{categoria.id}}">{{categoria.title}}</a>
+			</ion-item>
+		</ion-list>
+	</ion-content>
+</ion-view>

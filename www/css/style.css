@@ -1,0 +1,11 @@
+/* Empty. Add your own CSS if you like */
+a{	
+	font-family: "Helvetica";
+	text-decoration: none;
+	color: #999;
+}
+
+img{
+/*	height: 100px;*/
+	width: 100%;
+}
